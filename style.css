@@ -1,35 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: #EDCAD1;
+    font-family: 'Gentium Plus', serif;
   }
 
-  header {
-    padding: 2em;
-    background-color:#B27D88;
-    margin-top: 2em;
+  .container{
+    margin: 100px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .quote-box {
+    border: 3px solid #945663;
+    border-radius: 2em;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+  }
+
+  #quote{
+    color: #150C0E;
     text-align: center;
-    color: aliceblue;
   }
-
-  .quote{
-    font-size: 2em;
-  }
-
-  .btn-large{
-    margin: 0.5em;
-  }
-
-  .card{
+  #btn {
     text-align: center;
-    width: 45em;
+    border-radius: 2em;
+    padding: 10px 15px;
+    color: #7F4A55;
+    font-weight: bold;
+    cursor: pointer;
   }
 
-  .new-quote-button {
-    background-color: #945663;
-    border-color: aliceblue;
-    border-radius: 1em;
-    text-decoration-color: #EDCAD1;
+  #btn:hover{
+    background-color:#7BB9D3;
   }
 
-  #button:hover{
-    background-color: aqua;
+  #author{
+    font-weight: bold;
+    color: #150C0E;
+    font-style: italic;
+    margin-top: 10px;
+    float: right;
   }
