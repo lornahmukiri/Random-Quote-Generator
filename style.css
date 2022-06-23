@@ -5,8 +5,14 @@
 }
 
 body {
-    background: #EDCAD1;
+    background: #EDC2D0;
     font-family: 'Gentium Plus', serif;
+  }
+
+  h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
   }
 
   .container{
@@ -38,7 +44,7 @@ body {
   }
 
   #btn:hover{
-    background-color:#7BB9D3;
+    background-color:#C2E6ED;
   }
 
   #author{
