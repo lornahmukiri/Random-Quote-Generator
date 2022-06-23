@@ -1,3 +1,35 @@
 body {
-    background: pink;
-}
+    background: #EDCAD1;
+  }
+
+  header {
+    padding: 2em;
+    background-color:#B27D88;
+    margin-top: 2em;
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .quote{
+    font-size: 2em;
+  }
+
+  .btn-large{
+    margin: 0.5em;
+  }
+
+  .card{
+    text-align: center;
+    width: 45em;
+  }
+
+  .new-quote-button {
+    background-color: #945663;
+    border-color: aliceblue;
+    border-radius: 1em;
+    text-decoration-color: #EDCAD1;
+  }
+
+  #button:hover{
+    background-color: aqua;
+  }
