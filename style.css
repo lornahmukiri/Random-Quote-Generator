@@ -28,6 +28,7 @@ body {
     border-radius: 2em;
     padding: 40px 20px;
     margin-bottom: 20px;
+
   }
 
   #quote{
@@ -49,7 +50,7 @@ body {
 
   #author{
     font-weight: bold;
-    color: #150C0E;
+    color: #2d1017;
     font-style: italic;
     margin-top: 10px;
     float: right;
